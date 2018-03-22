@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/progress_horizontal"
+    tools:context="com.example.syl.sportquiz.Questions">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultmargin"
+            android:background="#BDBDBD"
+            android:ellipsize="none"
+            android:fontFamily="@font/dancing_script"
+            android:text="What is a most favorite teamsport in the world?"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest1">
+
+            <RadioButton
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer2"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer3"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer4"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="25sp" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/quest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio"
+            android:layout_margin="@dimen/defaultmargin"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:text="Pick, where is a ball is an ingredient."
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest2"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer5"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question5"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer6"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question6"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer7"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question7"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer8"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/quest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question8"
+            android:layout_margin="@dimen/defaultmargin"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:text="Which one is a winter sport?"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest3"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer9"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/question10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer10"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/question11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer11"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/question12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultmargin"
+                android:buttonTint="@android:color/black"
+                android:fontFamily="@font/dancing_script"
+                android:text="@string/answer12"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio2"
+            android:layout_margin="@dimen/defaultmargin"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/quest4"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/question13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quest4"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer13"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question13"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer14"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question14"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer15"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/question16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question15"
+            android:layout_margin="@dimen/defaultmargin"
+            android:buttonTint="@android:color/black"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/answer16"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/quest5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question16"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:text="@string/quest5"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quest5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/dancing_script"
+            android:inputType="text"
+            android:orientation="vertical"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question18"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/defaultmargin"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:gravity="center"
+            android:onClick="submitbtn"
+            android:text="Show"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/submit_button"
+            android:layout_alignBottom="@+id/submit_button"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#BDBDBD"
+            android:fontFamily="@font/dancing_script"
+            android:onClick="resetbtn"
+            android:text="Reset"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</ScrollView>

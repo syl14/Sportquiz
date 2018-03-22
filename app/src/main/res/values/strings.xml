@@ -1,0 +1,34 @@
+<resources>
+        <string name="app_name">Sportquiz</string>
+        <string name="Name">Your name</string>
+        <string name="quest1">What is a most favorite teamsport in the world?</string>
+        <string name="answer">Futball</string>
+        <string name="answer2">Tennis</string>
+        <string name="answer3">Cricket</string>
+        <string name="answer4">Basketball</string>
+
+        <string name="quest2">Pick, where is a ball is an ingredient.</string>
+        <string name="answer5">Climbing</string>
+        <string name="answer6">Running</string>
+        <string name="answer7">Handball</string>
+        <string name="answer8">Basketball</string>
+
+        <string name="quest3">Which one is a winter sport?</string>
+        <string name="answer9">Surf</string>
+        <string name="answer10">Boxing</string>
+        <string name="answer11">Running</string>
+        <string name="answer12">Skating</string>
+
+        <string name="quest4">How many minutes a futballgame?</string>
+        <string name="answer13">45</string>
+        <string name="answer14">60</string>
+        <string name="answer15">90</string>
+        <string name="answer16">30</string>
+
+        <string name="quest5">In which futballclub play Messi?</string>
+
+        <string name="submit">Show</string>
+</resources>
+
+
+
